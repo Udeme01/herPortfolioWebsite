@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 1rem;
+  /* background-color: rgb(129, 129, 129); */
 }
 
 .logo-wrapper {

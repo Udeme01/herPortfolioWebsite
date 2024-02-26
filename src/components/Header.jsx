@@ -4,7 +4,7 @@ import Icons from "./Social-icons";
 
 export const Header = () => {
   return (
-    <header className="header container mx-auto">
+    <header className="header px-4 sticky top-0">
       {/* header wrapper start */}
       <div className="header-wrapper">
         {/* header left start */}
