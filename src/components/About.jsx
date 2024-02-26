@@ -1,17 +1,25 @@
 import aboutImg from "../assets/img/about-7.jpg";
-// import { EXAMPLES } from "./data";
-// import Tabs from "./Tabs";
 import TabButton from "./TabButtons";
-// import { useState } from "react";
+import { useState } from "react";
+import Section from "./TabContent-Section";
 
 const About = () => {
-  // const [selectedTopic, setSelectedtTopic] = useState();
+  const [selectedTopic, setSelectedtTopic] = useState("skills");
+
+  //   handleSelect Function();
+  const handleSelect = (selectedButton) => {
+    setSelectedtTopic(selectedButton);
+  };
 
   return (
     <>
       <section className="font-body">
         <div>
-          <img className="px-6 my-12 w-full mx-auto" src={aboutImg} alt="about image" />
+          <img
+            className="px-6 my-12 w-full mx-auto"
+            src={aboutImg}
+            alt="about image"
+          />
         </div>
 
         {/* about me */}
@@ -27,14 +35,19 @@ const About = () => {
               you are going to use a passage of Lorem Ipsum,
             </p>
           </div>
-          <section className="my-5">
-            <TabButton>Main Skills</TabButton>
-            <TabButton>Awards</TabButton>
-            <TabButton>Experience</TabButton>
-            <TabButton>Education</TabButton>
+          <section className="tabButton my-5">
+            <TabButton onSelect={() => handleSelect("skills")}>
+              Main Skills
+            </TabButton>
+            <TabButton onSelect={() => handleSelect("experience")}>
+              Experience
+            </TabButton>
+            <TabButton onSelect={() => handleSelect("education")}>
+              Education
+            </TabButton>
           </section>
+          <Section topic={selectedTopic} />
         </div>
-        {/* about me */}
       </section>
     </>
   );
