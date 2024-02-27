@@ -8,7 +8,7 @@ const ServiceHeader = () => {
   return (
     <>
       <section className="font-body px-6 mt-12">
-        <h1 className="text-3xl font-medium text-orange-700 mb-3">
+        <h1 className="text-3xl font-medium text-orange-700 mb-3 text-center">
           My Services
         </h1>
         <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular">

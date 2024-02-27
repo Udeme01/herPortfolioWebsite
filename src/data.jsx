@@ -3,6 +3,8 @@ import { faArrowsToCircle, faClapperboard, faPenToSquare } from "@fortawesome/fr
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
 
+
+// SERVICES data
 export const SERVICES = [
   {
     image: (
@@ -54,6 +56,8 @@ export const SERVICES = [
   },
 ];
 
+
+// ABOUT data
 export const EXAMPLES = {
   skills: {
     person: [
@@ -157,3 +161,6 @@ export const EXAMPLES = {
     ],
   },
 };
+
+
+// NEWS BLOG data

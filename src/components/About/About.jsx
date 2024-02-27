@@ -25,7 +25,7 @@ const About = () => {
         {/* about me */}
         <div className="px-6">
           <div>
-            <h1 className="text-3xl font-medium text-orange-700 mb-3">
+            <h1 className="text-3xl font-medium text-orange-700 mb-3 text-center">
               About Me
             </h1>
             <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular">
