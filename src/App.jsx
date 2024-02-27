@@ -1,7 +1,8 @@
-import About from "./components/About";
-import { Header } from "./components/Header";
-import Home from "./components/HomePage";
 import { Fragment } from "react";
+import About from "./components/About/About";
+import { Header } from "./components/Header/Header";
+import Home from "./components/HomePage";
+import ServiceHeader from "./components/Services/Services";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <ServiceHeader />
     </Fragment>
   );
 }

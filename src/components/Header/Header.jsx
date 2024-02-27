@@ -1,6 +1,6 @@
-import { Nav } from "./Nav";
-import logo from "../assets/img/logo.ico";
-import Icons from "./Social-icons";
+import { Nav } from "../Header/Nav";
+import logo from "../../assets/img/logo.ico";
+import Icons from "../Header/Social-icons";
 
 export const Header = () => {
   return (

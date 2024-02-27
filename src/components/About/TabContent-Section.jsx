@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { EXAMPLES } from "./data";
+import { EXAMPLES } from "../../data";
 
 const Section = ({ topic }) => {
   return (

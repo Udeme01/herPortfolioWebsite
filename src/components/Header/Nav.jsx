@@ -1,4 +1,4 @@
-import logo from "../assets/img/logo.ico";
+import logo from "../../assets/img/logo.ico";
 
 export const Nav = () => {
   return (

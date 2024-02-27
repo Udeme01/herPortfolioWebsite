@@ -1,4 +1,58 @@
 import { motion } from "framer-motion";
+import { faArrowsToCircle, faClapperboard, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
+
+export const SERVICES = [
+  {
+    image: (
+      <FontAwesomeIcon
+        icon={faPenToSquare}
+        size="5x"
+        className="text-orange-700"
+      />
+    ),
+    title: "Content Writing",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+  },
+  {
+    image: (
+      <FontAwesomeIcon
+        icon={faArrowsToCircle}
+        size="5x"
+        className="text-orange-700"
+      />
+    ),
+    title: "Content Creation",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+  },
+  {
+    image: (
+      <FontAwesomeIcon
+        icon={faClapperboard}
+        size="5x"
+        className="text-orange-700"
+      />
+    ),
+    title: "Reels Editing",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+  },
+  {
+    image: (
+      <FontAwesomeIcon
+        icon={faCalendarDays}
+        size="5x"
+        className="text-orange-700"
+      />
+    ),
+    title: "Scheduling Content",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+  },
+];
 
 export const EXAMPLES = {
   skills: {

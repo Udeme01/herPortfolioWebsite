@@ -19,7 +19,7 @@ const TabButton = ({ children, onSelect, isSelected }) => {
 TabButton.propTypes = {
   children: PropTypes.string,
   onSelect: PropTypes.func,
-  isSelected: PropTypes.func,
+  isSelected: PropTypes.bool,
 };
 
 export default TabButton;

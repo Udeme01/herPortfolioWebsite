@@ -1,7 +1,7 @@
-import aboutImg from "../assets/img/about-7.jpg";
-import TabButton from "./TabButtons";
+import aboutImg from "../../assets/img/about-7.jpg";
+import TabButton from "../About/TabButtons";
 import { useState } from "react";
-import Section from "./TabContent-Section";
+import Section from "../About/TabContent-Section";
 
 const About = () => {
   const [selectedTopic, setSelectedtTopic] = useState("skills");
@@ -25,7 +25,7 @@ const About = () => {
         {/* about me */}
         <div className="px-6">
           <div>
-            <h1 className="text-xl font-medium text-orange-700 mb-3">
+            <h1 className="text-3xl font-medium text-orange-700 mb-3">
               About Me
             </h1>
             <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular">
@@ -36,13 +36,22 @@ const About = () => {
             </p>
           </div>
           <section className="tabButton my-5">
-            <TabButton isSelected={selectedTopic === 'skills'} onSelect={() => handleSelect("skills")}>
+            <TabButton
+              isSelected={selectedTopic === "skills"}
+              onSelect={() => handleSelect("skills")}
+            >
               Main Skills
             </TabButton>
-            <TabButton isSelected={selectedTopic === 'experience'} onSelect={() => handleSelect("experience")}>
+            <TabButton
+              isSelected={selectedTopic === "experience"}
+              onSelect={() => handleSelect("experience")}
+            >
               Experience
             </TabButton>
-            <TabButton  isSelected={selectedTopic === 'education'} onSelect={() => handleSelect("education")}>
+            <TabButton
+              isSelected={selectedTopic === "education"}
+              onSelect={() => handleSelect("education")}
+            >
               Education
             </TabButton>
           </section>
