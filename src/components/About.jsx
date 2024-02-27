@@ -18,7 +18,7 @@ const About = () => {
           <img
             className="px-6 my-12 w-full mx-auto"
             src={aboutImg}
-            alt="about image"
+            alt="about-image"
           />
         </div>
 
@@ -36,13 +36,13 @@ const About = () => {
             </p>
           </div>
           <section className="tabButton my-5">
-            <TabButton onSelect={() => handleSelect("skills")}>
+            <TabButton isSelected={selectedTopic === 'skills'} onSelect={() => handleSelect("skills")}>
               Main Skills
             </TabButton>
-            <TabButton onSelect={() => handleSelect("experience")}>
+            <TabButton isSelected={selectedTopic === 'experience'} onSelect={() => handleSelect("experience")}>
               Experience
             </TabButton>
-            <TabButton onSelect={() => handleSelect("education")}>
+            <TabButton  isSelected={selectedTopic === 'education'} onSelect={() => handleSelect("education")}>
               Education
             </TabButton>
           </section>

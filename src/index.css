@@ -85,3 +85,9 @@ body {
 .social-icon-wrapper li:nth-child(1) {
   margin-left: 0;
 }
+
+/* BTN Active state */
+.active {
+  background-color: rgb(194, 69, 12);
+  color: white;
+}
