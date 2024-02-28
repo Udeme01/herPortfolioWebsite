@@ -13,10 +13,10 @@ import work from "./assets/img/work.webp";
 import room from "./assets/img/room.webp";
 import fone from "./assets/img/fone.webp";
 import flower from "./assets/img/flower.webp";
-import profileImg from "./assets/img/logo.ico";
+import profileImg from "./assets/img/favicon.ico";
 
 // BLOG styles...
-const bImg = "rounded-2xl shadow-xl";
+const bImg = "rounded-2xl shadow-sm";
 const bTitle = "mt-4 font-bold text-orange-700 text-md";
 const bBody = "mt-2 text-orange-700 text-sm";
 const bSpanLink = "rounded-md p-1 my-10";

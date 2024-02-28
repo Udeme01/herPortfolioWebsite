@@ -1,5 +1,5 @@
 import { Nav } from "../Header/Nav";
-import logo from "../../assets/img/logo.ico";
+import logo from "../../assets/img/favicon.ico";
 import Icons from "../Header/Social-icons";
 
 export const Header = () => {

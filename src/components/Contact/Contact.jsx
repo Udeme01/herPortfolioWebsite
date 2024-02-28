@@ -14,8 +14,8 @@ const Contact = () => {
         odit adipisci laborum quae aut soluta tempore exercitationem similique
         facilis!
       </p>
-      <form className="p-8">
-        <div>
+      <form className="p-6">
+        <div className="bg-orange-100 p-12 mb-4 rounded-2xl shadow-xl">
           <div className="mb-4">
             {/* <label htmlFor="name">Name</label> */}
             <input
@@ -23,7 +23,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="border focus:border-orange-700 outline-none rounded w-full p-2 text-orange-700"
+              className="border focus:border-orange-700 outline-none rounded w-full p-2 text-orange-700 bg-transparent placeholder:text-slate-600"
               required
             />
           </div>
@@ -35,7 +35,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Email"
-              className="border focus:border-orange-700 outline-none rounded w-full p-2 text-orange-700"
+              className="border focus:border-orange-700 outline-none rounded w-full p-2 text-orange-700 bg-transparent placeholder:text-slate-600"
               required
             />
           </div>
@@ -53,7 +53,7 @@ const Contact = () => {
               id="message"
               name="message"
               placeholder="Message"
-              className="border focus:border-orange-700 outline-none rounded w-full p-2 text-orange-700"
+              className="border focus:border-orange-700 outline-none rounded w-full p-2 text-orange-700 bg-transparent placeholder:text-slate-600"
               required
             />
           </div>

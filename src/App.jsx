@@ -5,6 +5,7 @@ import Home from "./components/HomePage";
 import ServiceHeader from "./components/Services/Services";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ServiceHeader />
       <Blog />
       <Contact />
+      <Footer />
     </Fragment>
   );
 }

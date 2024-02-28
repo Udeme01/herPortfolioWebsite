@@ -28,7 +28,11 @@ export default {
       "5xl": "1.9rem",
       "6xl": "2.05rem",
     },
-    extend: {},
+    extend: {
+      colors: {
+        footerColor: "rgb(248, 247, 250)",
+      },
+    },
   },
   plugins: [],
 };
