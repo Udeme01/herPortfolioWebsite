@@ -6,8 +6,8 @@ const Contact = () => {
   const [inputValue, setInputValue] = useState();
   return (
     <section className="font-body text-orange-700">
-      <h1 className="text-center text-3xl font-medium text-orange-700 mb-2">
-        Contact Me - Let&apos;s get started
+      <h1 className="text-center text-4xl font-bold text-orange-700 mb-2">
+        Let&apos;s get started
       </h1>
       <p className="px-6">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero

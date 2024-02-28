@@ -9,10 +9,10 @@ const Home = () => {
           className="size-fit bg-right bg-cover w-fit h-full opacity-25"
         />
         <div className="absolute text-orange-700 leading-normal px-6 py-6">
-          <h1 className="text-3xl tracking-widest uppercase font-medium">
+          <h1 className="text-4xl tracking-widest uppercase font-bold">
             Social Media Manager
           </h1>
-          <h2 className="text-sm p-12 pt-3 pl-0 tracking-widest leading-7 font-regular">
+          <h2 className="text-base p-12 pt-3 pl-0 tracking-widest leading-7 font-regular">
             Hello! I&apos;m Akogun Believe, a dedicated Social Media Manager
             with a passion for crafting engaging online experiences and driving
             impactful digital strategies. With more than 4years of experience in
