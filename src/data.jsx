@@ -197,18 +197,17 @@ export const BLOG = [
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts{" "}
         <span className={bSpanLink}>
-          <a
-            className={bLink}
-            href="#"
-          >
+          <a className={bLink} href="#">
             Read More...
           </a>
         </span>
       </p>
     ),
-    profileImage: <span>
-    <img src={profileImg} alt="#" className={bProfile} />
-  </span>,
+    profileImage: (
+      <span>
+        <img src={profileImg} alt="#" className={bProfile} />
+      </span>
+    ),
     profileName: <h5 className={bName}>Akogun Believe</h5>,
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
@@ -224,18 +223,17 @@ export const BLOG = [
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts{" "}
         <span className={bSpanLink}>
-          <a
-            className={bLink}
-            href="#"
-          >
+          <a className={bLink} href="#">
             Read More...
           </a>
         </span>
       </p>
     ),
-    profileImage: <span>
-    <img src={profileImg} alt="#" className={bProfile} />
-  </span>,
+    profileImage: (
+      <span>
+        <img src={profileImg} alt="#" className={bProfile} />
+      </span>
+    ),
     profileName: <h5 className={bName}>Akogun Believe</h5>,
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
@@ -251,18 +249,17 @@ export const BLOG = [
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts{" "}
         <span className={bSpanLink}>
-          <a
-            className={bLink}
-            href="#"
-          >
+          <a className={bLink} href="#">
             Read More...
           </a>
         </span>
       </p>
     ),
-    profileImage: <span>
-    <img src={profileImg} alt="#" className={bProfile} />
-  </span>,
+    profileImage: (
+      <span>
+        <img src={profileImg} alt="#" className={bProfile} />
+      </span>
+    ),
     profileName: <h5 className={bName}>Akogun Believe</h5>,
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
@@ -278,18 +275,17 @@ export const BLOG = [
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts{" "}
         <span className={bSpanLink}>
-          <a
-            className={bLink}
-            href="#"
-          >
+          <a className={bLink} href="#">
             Read More...
           </a>
         </span>
       </p>
     ),
-    profileImage: <span>
-    <img src={profileImg} alt="#" className={bProfile} />
-  </span>,
+    profileImage: (
+      <span>
+        <img src={profileImg} alt="#" className={bProfile} />
+      </span>
+    ),
     profileName: <h5 className={bName}>Akogun Believe</h5>,
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
@@ -305,18 +301,17 @@ export const BLOG = [
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts{" "}
         <span className={bSpanLink}>
-          <a
-            className={bLink}
-            href="#"
-          >
+          <a className={bLink} href="#">
             Read More...
           </a>
         </span>
       </p>
     ),
-    profileImage: <span>
-    <img src={profileImg} alt="#" className={bProfile} />
-  </span>,
+    profileImage: (
+      <span>
+        <img src={profileImg} alt="#" className={bProfile} />
+      </span>
+    ),
     profileName: <h5 className={bName}>Akogun Believe</h5>,
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },

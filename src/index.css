@@ -89,3 +89,31 @@ body {
   background-color: rgb(194, 69, 12);
   color: white;
 }
+
+/* Phone Input */
+.PhoneInput {
+  width: 100%;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.PhoneInputInput {
+  outline: none;
+  border: none;
+  color: black;
+  opacity: 50%;
+}
+
+.PhoneInputCountry {
+  color: black;
+}
+
+.PhoneInputInput:focus {
+  color: rgb(194, 69, 12);
+  opacity: 100%;
+}
+
+.PhoneInputCountrySelect {
+  color: rgb(194, 69, 12);
+}
