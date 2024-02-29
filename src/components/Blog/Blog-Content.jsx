@@ -30,10 +30,10 @@ BlogItems.propTypes = {
   description: PropTypes.string,
   blogImage: PropTypes.object,
   blogTitle: PropTypes.object,
-  blogDescription: PropTypes.string,
+  blogDescription: PropTypes.object,
   profileImage: PropTypes.object,
-  profileName: PropTypes.string,
-  profileTag: PropTypes.string,
+  profileName: PropTypes.object,
+  profileTag: PropTypes.object,
 };
 
 export default BlogItems;

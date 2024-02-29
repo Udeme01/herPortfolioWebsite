@@ -8,7 +8,7 @@ const Blog = () => {
         Blog
       </h1>
       {BLOG.map((blogContent) => (
-        <BlogItems key={blogContent.blogTitle} {...blogContent} />
+        <BlogItems key={blogContent.id} {...blogContent} />
       ))}
     </section>
   );

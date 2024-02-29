@@ -186,6 +186,7 @@ export const EXAMPLES = {
 
 export const BLOG = [
   {
+    id: "01",
     blogImage: <img className={bImg} src={vase} alt="newsImg" />,
     blogTitle: (
       <h1 className={bTitle}>
@@ -212,6 +213,7 @@ export const BLOG = [
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
   {
+    id: "02",
     blogImage: <img className={bImg} src={work} alt="newsImg" />,
     blogTitle: (
       <h1 className={bTitle}>
@@ -238,6 +240,7 @@ export const BLOG = [
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
   {
+    id: "03",
     blogImage: <img className={bImg} src={room} alt="newsImg" />,
     blogTitle: (
       <h1 className={bTitle}>
@@ -264,6 +267,7 @@ export const BLOG = [
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
   {
+    id: "04",
     blogImage: <img className={bImg} src={fone} alt="newsImg" />,
     blogTitle: (
       <h1 className={bTitle}>
@@ -290,6 +294,7 @@ export const BLOG = [
     profileTag: <p className={bTag}>CEO and Founder</p>,
   },
   {
+    id: "05",
     blogImage: <img className={bImg} src={flower} alt="newsImg" />,
     blogTitle: (
       <h1 className={bTitle}>
