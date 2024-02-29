@@ -8,11 +8,11 @@ const Home = () => {
           src={heroImg}
           className="size-fit bg-right bg-cover w-fit h-full opacity-25"
         />
-        <div className="absolute text-orange-700 leading-normal px-6 py-6 w-full mx-auto">
-          <h1 className="text-xl tracking-widest uppercase font-bold">
+        <div className="absolute text-orange-700 leading-normal px-6 py-6 w-full mx-auto xl:w-90 xl:p-0">
+          <h1 className="text-xl tracking-widest uppercase font-bold sm:text-3xl md:text-4xl xl:text-7xl">
             Social Media Manager
           </h1>
-          <h2 className="text-sm p-12 pt-3 pl-0 tracking-widest leading-7 font-regular">
+          <h2 className="text-sm p-12 pt-3 pl-0 tracking-widest leading-7 font-regular sm:text-base md:text-md xl:text-lg xl:pr-96">
             Hello! I&apos;m Akogun Believe, a dedicated Social Media Manager
             with a passion for crafting engaging online experiences and driving
             impactful digital strategies. With more than 4years of experience in

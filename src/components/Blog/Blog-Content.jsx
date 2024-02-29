@@ -9,7 +9,7 @@ const BlogItems = ({
   profileTag,
 }) => {
   return (
-    <article className="px-6 mb-8 flex flex-col justify-center items-stretch bg-white shadow-lg rounded-xl p-2">
+    <article className="px-6 mb-8 flex flex-col justify-center items-stretch bg-white shadow-lg rounded-xl p-2 md:m-0">
       {blogImage}
       {blogTitle}
       {blogDescription}

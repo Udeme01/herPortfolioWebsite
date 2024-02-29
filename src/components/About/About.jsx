@@ -13,22 +13,22 @@ const About = () => {
 
   return (
     <>
-      <section className="font-body">
-        <div>
+      <section className="font-body md:flex xl:w-90 xl:mx-auto">
+        <div className="m-6 md:w-full lg:w-4/12">
           <img
-            className="px-6 my-12 w-full mx-auto"
+            className="w-full mx-auto rounded-3xl"
             src={aboutImg}
             alt="about-image"
           />
         </div>
 
         {/* about me */}
-        <div className="px-6">
+        <div className="px-6 md:w-full md:flex md:flex-col md:justify-center lg:w-3/5">
           <div>
-            <h1 className="text-4xl font-bold text-orange-700 mb-3 text-center">
+            <h1 className="text-4xl font-bold text-orange-700 mb-3 text-center md:text-left md:text-6xl lg:text-7xl">
               About Me
             </h1>
-            <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular">
+            <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular md:text-base lg:text-md xl:text-lg">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered in some form, by injected humour,
               or randomised words which dont look even slightly believable. If

@@ -5,16 +5,18 @@ import { useState } from "react";
 const Contact = () => {
   const [inputValue, setInputValue] = useState();
   return (
-    <section className="font-body text-orange-700">
-      <h1 className="text-center text-4xl font-bold text-orange-700 mb-2">
-        Let&apos;s get started
-      </h1>
-      <p className="px-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero
-        odit adipisci laborum quae aut soluta tempore exercitationem similique
-        facilis!
-      </p>
-      <form className="p-6">
+    <section className="font-body text-orange-700 lg:flex xl:w-90 xl:mx-auto">
+      <div className="lg:flex lg:flex-col lg:justify-center lg:w-full">
+        <h1 className="text-center text-4xl font-bold text-orange-700 mb-2 lg:text-7xl lg:text-left lg:px-6">
+          Let&apos;s get started
+        </h1>
+        <p className="px-6 lg:text-lg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero
+          odit adipisci laborum quae aut soluta tempore exercitationem similique
+          facilis!
+        </p>
+      </div>
+      <form className="p-6 lg:w-full">
         <div className="bg-orange-100 p-12 mb-4 rounded-2xl shadow-xl">
           <div className="mb-4">
             {/* <label htmlFor="name">Name</label> */}

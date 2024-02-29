@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 const ServicesListItem = ({ image, title, description }) => {
   return (
-    <li className="rounded-2xl mt-8">
+    <li className="rounded-2xl mt-8 md:mt-0">
       <div className="text-center py-12 rounded-2xl bg-orange-100 shadow-xl">
         {image}
         <h2 className="text-orange-700 font-bold py-6 text-xl">{title}</h2>
