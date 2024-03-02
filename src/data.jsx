@@ -8,11 +8,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
 
 // Property of BLOG data
-import vase from "./assets/img/vase.webp";
-import work from "./assets/img/work.webp";
-import room from "./assets/img/room.webp";
-import fone from "./assets/img/fone.webp";
-import flower from "./assets/img/flower.webp";
+import ebuka from "./assets/img/ebuka.jpg";
+import bliss from "./assets/img/bliss.jpeg";
+import timini from "./assets/img/timini.jpg";
+import gold from "./assets/img/gold.png";
+import fireboy from "./assets/img/fireboy.png";
 import profileImg from "./assets/img/favicon.ico";
 
 // BLOG styles...
@@ -187,18 +187,16 @@ export const EXAMPLES = {
 export const BLOG = [
   {
     id: "01",
-    blogImage: <img className={bImg} src={vase} alt="newsImg" />,
-    blogTitle: (
-      <h1 className={bTitle}>
-        Your most happy customers are your greatest source of learning
-      </h1>
-    ),
+    blogImage: <img className={bImg} src={ebuka} alt="newsImg" />,
+    blogTitle: <h1 className={bTitle}>EBUKA TURNS UP AFRICA.</h1>,
     blogDescription: (
       <p className={bBody}>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts{" "}
+        The show is a travel-reality series that will feature the well-known
+        Nigerian personality Ebuka Obi-Uchendu. It aims to take the audience on
+        a thrilling journey across Africa, uncovering hidden gems and putting
+        loyalties and friendships to the test.{" "}
         <span className={bSpanLink}>
-          <a className={bLink} href="#">
+          <a className={bLink} href="https://kedutv.com/newsdetail?id=784">
             Read More...
           </a>
         </span>
@@ -214,18 +212,15 @@ export const BLOG = [
   },
   {
     id: "02",
-    blogImage: <img className={bImg} src={work} alt="newsImg" />,
-    blogTitle: (
-      <h1 className={bTitle}>
-        Your most happy customers are your greatest source of learning
-      </h1>
-    ),
+    blogImage: <img className={bImg} src={bliss} alt="newsImg" />,
+    blogTitle: <h1 className={bTitle}>MOSES BLISS TRADITIONAL WEDDING.</h1>,
     blogDescription: (
       <p className={bBody}>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts{" "}
+        In a celebration that wove together the rich blend of Nigerian and
+        Ghanaian traditions, gospel singer Moses Bliss&apos;s traditional
+        wedding was a cultural spectacle to behold.{" "}
         <span className={bSpanLink}>
-          <a className={bLink} href="#">
+          <a className={bLink} href="https://kedutv.com/newsdetail?id=787">
             Read More...
           </a>
         </span>
@@ -241,18 +236,19 @@ export const BLOG = [
   },
   {
     id: "03",
-    blogImage: <img className={bImg} src={room} alt="newsImg" />,
+    blogImage: <img className={bImg} src={timini} alt="newsImg" />,
     blogTitle: (
-      <h1 className={bTitle}>
-        Your most happy customers are your greatest source of learning
-      </h1>
+      <h1 className={bTitle}>DATING ABROAD IS BETTER THAN HERE IN NAIJA.</h1>
     ),
     blogDescription: (
       <p className={bBody}>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts{" "}
+        Nigerian Nollywood actor shared his dating experience on the podcast
+        called Menisms. According to Timini, when a Nigerian babe abroad is
+        interested in you, you are considered a catch. He further expressed that
+        his dating experiences with Nigerian girls abroad are better than those
+        in Nigeria.{" "}
         <span className={bSpanLink}>
-          <a className={bLink} href="#">
+          <a className={bLink} href="https://kedutv.com/newsdetail?id=777">
             Read More...
           </a>
         </span>
@@ -268,16 +264,14 @@ export const BLOG = [
   },
   {
     id: "04",
-    blogImage: <img className={bImg} src={fone} alt="newsImg" />,
-    blogTitle: (
-      <h1 className={bTitle}>
-        Your most happy customers are your greatest source of learning
-      </h1>
-    ),
+    blogImage: <img className={bImg} src={gold} alt="newsImg" />,
+    blogTitle: <h1 className={bTitle}>YOU CAN SURVIVE BEING A SICKLE CELL.</h1>,
     blogDescription: (
       <p className={bBody}>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts{" "}
+        Adekunle Gold, a Nigerian singer, recently made headlines during his
+        concert for giving a shoutout to his fellow sickle cell members. In a
+        heartwarming gesture, he encouraged them, assuring them that they can
+        survive the challenges they face and manage their condition.{" "}
         <span className={bSpanLink}>
           <a className={bLink} href="#">
             Read More...
@@ -295,16 +289,19 @@ export const BLOG = [
   },
   {
     id: "05",
-    blogImage: <img className={bImg} src={flower} alt="newsImg" />,
+    blogImage: <img className={bImg} src={fireboy} alt="newsImg" />,
     blogTitle: (
       <h1 className={bTitle}>
-        Your most happy customers are your greatest source of learning
+        ONE OF THE HIGHLIGHTS OF MY CAREER IS COLLABORATING WITH MADONNA, A
+        GLOBAL ICON.
       </h1>
     ),
     blogDescription: (
       <p className={bBody}>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia, there live the blind texts{" "}
+        In a recent Billboard interview, Nigerian singer Fireboy highlighted a
+        memorable moment in his career. Recounting the unique experience,
+        Fireboy expressed his awe at receiving a direct message from Madonna,
+        where she expressed admiration for his music.{" "}
         <span className={bSpanLink}>
           <a className={bLink} href="#">
             Read More...
