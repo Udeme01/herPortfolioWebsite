@@ -4,12 +4,12 @@ import Icons from "../Header/Social-icons";
 
 export const Header = () => {
   return (
-    <header className="header sticky top-0 z-50 bg-orange-50">
+    <header className="header sticky top-0 z-50 bg-white shadow-sm">
       {/* header wrapper start */}
       <div className="flex items-center justify-between">
         {/* header left start */}
         <div className="header-left">
-          <div className="pt-2 px-6">
+          <div className="py-2 px-6">
             <img src={logo} alt="logo" className="rounded-full" />
           </div>
           <Nav />
