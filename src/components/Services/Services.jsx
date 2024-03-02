@@ -12,11 +12,8 @@ const ServiceHeader = () => {
           My Services
         </h1>
         <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular md:mb-8 lg:text-md">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
-          quam consequatur recusandae, repudiandae corporis, reiciendis
-          temporibus labore asperiores perspiciatis molestiae necessitatibus
-          inventore consequuntur omnis aperiam porro quas, explicabo voluptates
-          aspernatur!
+          As an experienced social media manager, I offer a comprehensive range
+          of services tailored to meet the unique needs of my clients.
         </p>
 
         {/* services rendered */}

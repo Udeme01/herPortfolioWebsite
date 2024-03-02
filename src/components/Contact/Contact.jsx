@@ -11,9 +11,9 @@ const Contact = () => {
           Let&apos;s get started
         </h1>
         <p className="px-6 lg:text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vero
-          odit adipisci laborum quae aut soluta tempore exercitationem similique
-          facilis!
+          Whether you&apos;re a small business, a well-established brand, or a
+          large organization, I&apos;m here to help you elevate your social
+          media presence and achieve your goals.
         </p>
       </div>
       <form className="p-6 lg:w-full">

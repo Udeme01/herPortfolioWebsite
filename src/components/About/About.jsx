@@ -29,10 +29,13 @@ const About = () => {
               About Me
             </h1>
             <p className="text-regular text-orange-700 text-sm tracking-wider leading-6 font-regular md:text-base lg:text-md xl:text-lg">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered in some form, by injected humour,
-              or randomised words which dont look even slightly believable. If
-              you are going to use a passage of Lorem Ipsum,
+              As a social media manager with more than 4years of experience,
+              I&apos;ve had the pleasure of working with small businesses,
+              renowned brands, and even large organizations which have provided
+              me with a unique professional perspective. My passion for
+              creativity knows no bounds. Shout out to my incredible clients,
+              supportive friends, and loving family who have been with me every
+              step of the way.
             </p>
           </div>
           <section className="tabButton my-5">

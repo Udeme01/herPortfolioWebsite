@@ -31,6 +31,12 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
+// Nav HyperLinks
+// import #home from "./components/HomePage";
+// import #about from "./components/About/About";
+// import Blog from "./components/Blog/Blog";
+// import Contact from "./components/Contact/Contact";
+
 // SERVICES data
 export const SERVICES = [
   {
@@ -43,7 +49,7 @@ export const SERVICES = [
     ),
     title: "Content Writing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+      "I specialize in content writing, crafting engaging and compelling captions and posts that capture the essence of each brand.",
   },
   {
     image: (
@@ -55,7 +61,7 @@ export const SERVICES = [
     ),
     title: "Content Creation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+      "My content creation skills ensure that each piece of content is visually appealing and on-brand, utilizing high-quality images and videos.",
   },
   {
     image: (
@@ -67,7 +73,7 @@ export const SERVICES = [
     ),
     title: "Reels Editing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+      " For those looking to incorporate the latest social media trends, I provide professional Reels editing services, turning ordinary videos into attention-grabbing content that stands out in the crowded social media landscape.",
   },
   {
     image: (
@@ -79,7 +85,7 @@ export const SERVICES = [
     ),
     title: "Scheduling Content",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus nemo alias fugit nesciunt? Repellat suscipit asperiores dolorum qui nisi?",
+      "I take the hassle out of maintaining a consistent posting schedule by handling the scheduling of content, ensuring that posts go out at the optimal times for maximum reach and engagement.",
   },
 ];
 
@@ -328,20 +334,21 @@ export const BLOG = [
 // NAVIGATION ROUTES
 export const ROUTES = [
   {
+    id: "home",
     title: "Home",
     href: "#",
   },
   {
     title: "About",
-    href: "#",
+    href: "#about",
   },
   {
     title: "Blog",
-    href: "#",
+    href: "#blog",
   },
   {
     title: "Contact",
-    href: "#",
+    href: "#contact",
   },
 ];
 
