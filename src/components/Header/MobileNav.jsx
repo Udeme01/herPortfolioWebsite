@@ -6,7 +6,7 @@ import Icons from "../Header/Social-icons";
 import { Squash as Hamburger } from "hamburger-react";
 
 const mobileNavStyles =
-  "absolute top-0 right-1/4 bottom-0 left-0 bg-orange-50 min-h-screen shadow-2xl lg:hidden";
+  "fixed top-0 right-1/4 bottom-0 left-0 bg-orange-50 min-h-screen shadow-2xl lg:hidden";
 const mobileNavList = "list-none mt-8 px-8 py-2 border-b border-b-black";
 
 export const MobileNav = () => {
