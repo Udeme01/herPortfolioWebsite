@@ -38,7 +38,9 @@ export default {
       },
       spacing: {
         90: "90%",
-        // size: "100%",
+      },
+      minHeight: {
+        60: "60vh",
       },
     },
   },

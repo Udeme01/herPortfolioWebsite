@@ -25,6 +25,12 @@ const bProfile = "rounded-full w-8";
 const bName = "text-sm font-bold";
 const bTag = "font-medium";
 
+// SOCIAL ICON LINKS
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 // SERVICES data
 export const SERVICES = [
   {
@@ -316,5 +322,49 @@ export const BLOG = [
     ),
     profileName: <h5 className={bName}>Akogun Believe</h5>,
     profileTag: <p className={bTag}>CEO and Founder</p>,
+  },
+];
+
+// NAVIGATION ROUTES
+export const ROUTES = [
+  {
+    title: "Home",
+    href: "#",
+  },
+  {
+    title: "About",
+    href: "#",
+  },
+  {
+    title: "Blog",
+    href: "#",
+  },
+  {
+    title: "Contact",
+    href: "#",
+  },
+];
+
+// SOCIAL ICON LINKS
+export const ICONS = [
+  {
+    href: "#",
+    icon: faFacebookF,
+  },
+  {
+    href: "#",
+    icon: faLinkedinIn,
+  },
+  {
+    href: "#",
+    icon: faXTwitter,
+  },
+  {
+    href: "#",
+    icon: "#",
+  },
+  {
+    href: "#",
+    icon: faInstagram,
   },
 ];

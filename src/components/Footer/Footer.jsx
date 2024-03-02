@@ -1,5 +1,6 @@
-import Icons from "../Header/Social-icons";
 import footerImg from "../../assets/img/footer.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ICONS } from "../../data";
 
 const Footer = () => {
   return (
@@ -18,7 +19,17 @@ const Footer = () => {
         </div>
         {/* links and copyright msg */}
         <div className="md:p-2">
-          <Icons />
+          <div className="flex justify-center py-4">
+            {ICONS.map((brands) => {
+              return (
+                <li className="list-none ml-8 last:ml-0 first:ml-0" key={brands.icon}>
+                  <a href={brands.href}>
+                    <FontAwesomeIcon icon={brands.icon} />
+                  </a>
+                </li>
+              );
+            })}
+          </div>
           <h2 className="text-orange-700 font-bold">
             Copyright &copy; 2024. All Rights Reserved.
           </h2>

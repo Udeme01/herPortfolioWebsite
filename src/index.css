@@ -15,23 +15,6 @@ body {
   min-height: 100vh;
 }
 
-/* Social Icons Styles */
-.social-icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-}
-
-.social-icon-wrapper li {
-  list-style-type: none;
-  margin-left: 2rem;
-}
-
-.social-icon-wrapper li:nth-child(1) {
-  margin-left: 0;
-}
-
 /* BTN Active state */
 .active {
   background-color: rgb(194, 69, 12);

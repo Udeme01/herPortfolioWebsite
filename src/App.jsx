@@ -10,7 +10,6 @@ import Footer from "./components/Footer/Footer";
 // import { useState, useRef, useEffect } from "react";
 
 function App() {
-
   return (
     <Fragment>
       <Header />

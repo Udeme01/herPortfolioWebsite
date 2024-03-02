@@ -1,34 +1,19 @@
-// font awesome icons/package import
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { ICONS } from "../../data";
 
 const Icons = () => {
   return (
     <>
-      <ul className="social-icon-wrapper">
-        <li>
-          <a href="#">
-            <FontAwesomeIcon icon={faFacebookF} />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon icon={faXTwitter} />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-        </li>
+      <ul className="flex items-end justify-center py-10 px-4 min-h-60">
+        {ICONS.map((brands) => {
+          return (
+            <li key={brands.icon} className="ml-8 last:ml-0 first:ml-0">
+              <a href={brands.href}>
+                <FontAwesomeIcon icon={brands.icon} />
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </>
   );

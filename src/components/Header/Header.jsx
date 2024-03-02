@@ -1,32 +1,22 @@
-import { Nav } from "../Header/Nav";
+import { MobileNav } from "./MobileNav";
 import logo from "../../assets/img/favicon.ico";
-import Icons from "../Header/Social-icons";
+// import { DesktopNav } from "./DesktopNav";
 
 export const Header = () => {
   return (
     <header className="header sticky top-0 z-50 bg-white shadow-sm">
-      {/* header wrapper start */}
       <div className="flex items-center justify-between">
-        {/* header left start */}
         <div className="header-left">
           <div className="py-2 px-6">
             <img src={logo} alt="logo" className="rounded-full" />
           </div>
-          <Nav />
         </div>
-        {/* header left end */}
 
-        {/* header right start */}
         <div className="header-right">
-          {/* social area start */}
-          <div className="header-social">
-            <Icons />
-          </div>
-          {/* social area end */}
+          <div className="header-social">{/* <Icons /> */}</div>
         </div>
-        {/* header right end */}
       </div>
-      {/* header wrapper end */}
+      <MobileNav />
     </header>
   );
 };
