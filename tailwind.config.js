@@ -39,9 +39,6 @@ export default {
       spacing: {
         90: "90%",
       },
-      minHeight: {
-        60: "60vh",
-      },
     },
   },
   plugins: [],
