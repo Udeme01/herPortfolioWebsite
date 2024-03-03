@@ -24,9 +24,9 @@ export const MobileNav = () => {
           </div>
           <ul>
             {ROUTES.map((route) => {
-              const { title, href, id } = route;
+              const { title, href } = route;
               return (
-                <li key={title} id={id} className={mobileNavList}>
+                <li key={title} className={mobileNavList}>
                   <a href={href}>{title}</a>
                 </li>
               );

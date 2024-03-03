@@ -26,9 +26,9 @@ const bName = "text-sm font-bold";
 const bTag = "font-medium";
 
 // SOCIAL ICON LINKS
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+// import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
+// import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 // Nav HyperLinks
@@ -358,23 +358,11 @@ export const ROUTES = [
 // SOCIAL ICON LINKS
 export const ICONS = [
   {
-    href: "#",
-    icon: faFacebookF,
-  },
-  {
-    href: "#",
+    href: "https://www.linkedin.com/in/believe-akogun-944412246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     icon: faLinkedinIn,
   },
   {
-    href: "#",
-    icon: faXTwitter,
-  },
-  {
-    href: "#",
-    icon: "#",
-  },
-  {
-    href: "#",
+    href: "https://www.instagram.com/thebelieverplugg?igsh=MTlmajdka3BlZG52cw==",
     icon: faInstagram,
   },
 ];
