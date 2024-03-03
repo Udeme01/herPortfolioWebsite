@@ -15,7 +15,7 @@ export const MobileNav = () => {
   return (
     <div className="bg-red-200 font-body text-xl lg:hidden">
       <span className="absolute top-0 right-0 border-8 border-white">
-        <Hamburger toggled={isOpen} size={20} toggle={setIsOpen} />
+        <Hamburger toggled={isOpen} size={32} toggle={setIsOpen} />
       </span>
       {isOpen && (
         <nav className={mobileNavStyles}>
