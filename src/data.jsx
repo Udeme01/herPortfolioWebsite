@@ -336,7 +336,7 @@ export const ROUTES = [
   {
     id: "home",
     title: "Home",
-    href: "#",
+    href: "#home",
   },
   {
     id: "about",
@@ -351,7 +351,7 @@ export const ROUTES = [
   {
     id: "contact",
     title: "Contact",
-    href: "#",
+    href: "#contact",
   },
 ];
 

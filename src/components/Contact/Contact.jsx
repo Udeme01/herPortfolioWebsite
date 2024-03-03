@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <section className="font-body text-orange-700 lg:flex xl:w-90 xl:mx-auto">
       <div className="lg:flex lg:flex-col lg:justify-center lg:w-full">
-        <h1 className="text-center text-4xl font-bold text-orange-700 mb-2 lg:text-7xl lg:text-left lg:px-6">
+        <h1 id="contact" className="text-center text-4xl font-bold text-orange-700 mb-2 lg:text-7xl lg:text-left lg:px-6">
           Let&apos;s get started
         </h1>
         <p className="px-6 lg:text-lg">
