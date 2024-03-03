@@ -339,16 +339,19 @@ export const ROUTES = [
     href: "#",
   },
   {
+    id: "about",
     title: "About",
     href: "#about",
   },
   {
+    id: "blog",
     title: "Blog",
     href: "#blog",
   },
   {
+    id: "contact",
     title: "Contact",
-    href: "#contact",
+    href: "#",
   },
 ];
 
