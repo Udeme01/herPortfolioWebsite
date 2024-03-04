@@ -6,6 +6,7 @@ import ServiceHeader from "./components/Services/Services";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+// import Modal from "./components/Modal/Modal";
 
 // import { useState, useRef, useEffect } from "react";
 
@@ -14,6 +15,7 @@ function App() {
     <Fragment>
       <Header />
       <Home />
+      {/* <Modal /> */}
       <About />
       <ServiceHeader />
       <Blog />

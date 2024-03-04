@@ -2,7 +2,7 @@ import heroImg from "../assets/img/whyte.png";
 
 const Home = () => {
   return (
-    <section className="font-body max-h-full">
+    <section id="home" className="font-body max-h-full">
       <div className="flex flex-row-reverse items-center justify-start relative">
         <img
           src={heroImg}
@@ -21,7 +21,7 @@ const Home = () => {
           </h2>
           <a
             className="border border-orange-700 rounded-full py-4 px-6 tracking-wider cursor-pointer font-medium bg-orange-700 text-white hover:bg-transparent hover:text-orange-700"
-            href="#"
+            href="mailto:akogunbelieve@gmail.com"
           >
             HIRE ME
           </a>

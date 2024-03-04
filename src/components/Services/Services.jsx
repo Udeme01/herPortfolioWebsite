@@ -7,7 +7,7 @@ import ServicesListItem from "./Services-List-Items";
 const ServiceHeader = () => {
   return (
     <>
-      <section className="font-body px-6 mt-12 xl:w-90 xl:mx-auto">
+      <section id="service" className="font-body px-6 mt-12 xl:w-90 xl:mx-auto">
         <h1 className="text-4xl font-bold text-orange-700 mb-3 text-center lg:text-6xl">
           My Services
         </h1>
