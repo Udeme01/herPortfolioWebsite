@@ -1,6 +1,7 @@
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   // phone input useState();
@@ -11,22 +12,42 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
-  const [isDisabled, setIsDisabled] = useState(false);
+  const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Your EmailJS service ID, template ID, public Key
+    const serviceId = "service_7llibkf";
+    const templateid = "template_a4k7j4m";
+    const publickey = "fDmQMhMPVmTEwPDrm";
+
+    // send the email using EmailJS
+    emailjs
+      .sendForm(serviceId, templateid, form.current, {
+        publicKey: publickey,
+      })
+      .then((response) => {
+        console.log("Email sent successfully", response);
+        setInputs({
+          name: "",
+          email: "",
+          message: "",
+        });
+
+        setInputValue("");
+      })
+      .catch((error) => {
+        console.log("Error sending email", error);
+      });
   };
 
+  // name, email and message handler...
   const handleChange = (identifier, event) => {
     setInputs((prevInputs) => ({
       ...prevInputs,
       [identifier]: event.target.value,
     }));
-  };
-
-  const handleDisabled = () => {
-    setIsDisabled(true);
   };
 
   return (
@@ -44,7 +65,7 @@ const Contact = () => {
           media presence and achieve your goals.
         </p>
       </div>
-      <form onSubmit={handleSubmit} className="p-6 lg:w-full">
+      <form ref={form} onSubmit={handleSubmit} className="p-6 lg:w-full">
         <div className="bg-orange-100 p-12 mb-4 rounded-2xl shadow-xl">
           <div className="mb-4">
             {/* <label htmlFor="name">Name</label> */}
@@ -75,6 +96,8 @@ const Contact = () => {
           </div>
 
           <PhoneInput
+            id="phoneInput"
+            name="phoneInput"
             international
             defaultCountry="US"
             value={inputValue}
@@ -95,15 +118,12 @@ const Contact = () => {
           </div>
         </div>
         <p>
-          {isDisabled && (
-            <button
-              onClick={handleDisabled}
-              type="submit"
-              className="border border-slate-300 rounded py-2 px-4 tracking-wider cursor-none font-medium bg-slate-200 text-orange-200"
-            >
-              Send
-            </button>
-          )}
+          <button
+            type="submit"
+            className="border border-orange-700 rounded py-2 px-4 tracking-wider cursor-pointer font-medium bg-orange-700 text-white hover:bg-white hover:text-orange-700 hover:animate-pulse"
+          >
+            Send
+          </button>
         </p>
       </form>
     </section>

@@ -363,10 +363,12 @@ export const ROUTES = [
 // SOCIAL ICON LINKS
 export const ICONS = [
   {
+    id: "footer001",
     href: "https://www.linkedin.com/in/believe-akogun-944412246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     icon: faLinkedinIn,
   },
   {
+    id: "footer002",
     href: "https://www.instagram.com/thebelieverplugg?igsh=MTlmajdka3BlZG52cw==",
     icon: faInstagram,
   },

@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex justify-center py-4">
             {ICONS.map((brands) => {
               return (
-                <li className="list-none ml-2 p-1 first:ml-0" key={brands.icon}>
+                <li className="list-none ml-2 p-1 first:ml-0" key={brands.id}>
                   <a target="_blank" href={brands.href}>
                     <FontAwesomeIcon icon={brands.icon} />
                   </a>
