@@ -20,7 +20,7 @@ const Home = () => {
             connections between brands and their audiences.
           </h2>
           <a
-            className="border border-orange-700 rounded-full py-4 px-6 tracking-wider cursor-pointer font-medium bg-orange-700 text-white hover:bg-transparent hover:text-orange-700"
+            className="border border-orange-700 rounded-full py-4 px-6 tracking-wider cursor-pointer font-medium bg-orange-700 text-white hover:bg-transparent hover:text-orange-700 hover:transition hover:delay-75 hover:duration-200 hover:ease-out"
             href="mailto:akogunbelieve@gmail.com"
           >
             HIRE ME

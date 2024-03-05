@@ -9,7 +9,7 @@ const Icons = () => {
           return (
             <li key={brands.id} className="ml-4 p-2 first:ml-0">
               <a
-                className="hover:text-orange-700"
+                className="hover:text-orange-700 hover:transition hover:delay-75 hover:duration-200 hover:ease-out"
                 target="_blank"
                 href={brands.href}
               >

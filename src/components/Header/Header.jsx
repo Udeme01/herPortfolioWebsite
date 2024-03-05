@@ -3,8 +3,10 @@ import logo from "../../assets/img/favicon.ico";
 import { DesktopNav } from "./DesktopNav";
 import { useState } from "react";
 
-const headerStyles = "header sticky z-50 xl:w-90 xl:mx-auto xl:p-0";
-const active = "sticky top-0 z-50 bg-white shadow-sm xl:w-90 xl:mx-auto";
+const headerStyles =
+  "header sticky z-50 xl:w-90 xl:mx-auto xl:p-0 transition delay-75 ease-in duration-300";
+const active =
+  "sticky top-0 z-50 bg-white shadow-sm transition delay-75 ease-in duration-300 xl:w-90 xl:mx-auto";
 
 export const Header = () => {
   const [color, setColor] = useState(false);

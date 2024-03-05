@@ -24,7 +24,7 @@ const Footer = () => {
               return (
                 <li className="list-none ml-2 p-1 first:ml-0" key={brands.id}>
                   <a
-                    className="hover:text-orange-700"
+                    className="hover:text-orange-700 hover:transition hover:delay-75 hover:duration-200 hover:ease-out"
                     target="_blank"
                     href={brands.href}
                   >

@@ -20,7 +20,9 @@ export const DesktopNav = () => {
               return (
                 <li className="p-2 m-3" key={id}>
                   <Link to={href} smooth>
-                    <a className="hover:text-orange-700">{title}</a>
+                    <a className="hover:text-orange-700 hover:transition hover:delay-75 hover:duration-200 hover:ease-out">
+                      {title}
+                    </a>
                   </Link>
                 </li>
               );
