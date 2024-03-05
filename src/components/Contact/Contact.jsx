@@ -28,7 +28,8 @@ const Contact = () => {
         publicKey: publickey,
       })
       .then((response) => {
-        console.log("Email sent successfully", response);
+        // console.log("Email sent successfully", response);
+        alert("Email sent successfully", response);
         setInputs({
           name: "",
           email: "",
@@ -38,7 +39,8 @@ const Contact = () => {
         setInputValue("");
       })
       .catch((error) => {
-        console.log("Error sending email", error);
+        // console.log("Error sending email", error);
+        alert("Error sending email", error);
       });
   };
 

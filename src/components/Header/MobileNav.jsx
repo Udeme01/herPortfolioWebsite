@@ -1,7 +1,8 @@
 import logo from "../../assets/img/favicon.ico";
 import { ROUTES } from "../../data";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Icons from "../Header/Social-icons";
+import { useClickAway } from "react-use";
 
 import { Squash as Hamburger } from "hamburger-react";
 import { BrowserRouter } from "react-router-dom";
@@ -13,10 +14,16 @@ const mobileNavList = "list-none mt-8 px-8 py-2 border-b border-b-black";
 
 export const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const clickAway = useRef(null);
+
+  // useClickAway();
+  useClickAway(clickAway, () => {
+    setIsOpen(false);
+  });
 
   return (
     <BrowserRouter>
-      <div className="bg-red-200 font-body text-xl lg:hidden">
+      <div ref={clickAway} className="bg-red-200 font-body text-xl lg:hidden">
         <span className="absolute top-0 right-0 border-8 border-white">
           <Hamburger toggled={isOpen} size={32} toggle={setIsOpen} />
         </span>
@@ -27,9 +34,9 @@ export const MobileNav = () => {
             </div>
             <ul>
               {ROUTES.map((route) => {
-                const { title, href } = route;
+                const { title, href, id } = route;
                 return (
-                  <li key={title} className={mobileNavList}>
+                  <li key={id} className={mobileNavList}>
                     <Link to={href} smooth>
                       <a>{title}</a>
                     </Link>
