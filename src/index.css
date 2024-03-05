@@ -12,7 +12,13 @@
 }
 
 html {
-  scroll-padding-top: var(--scroll-padding, 80px);
+  scroll-padding-top: var(--scroll-padding, 85px);
+}
+
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: var(--scroll-padding, 60px);
+  }
 }
 
 body {

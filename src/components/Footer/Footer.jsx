@@ -23,7 +23,11 @@ const Footer = () => {
             {ICONS.map((brands) => {
               return (
                 <li className="list-none ml-2 p-1 first:ml-0" key={brands.id}>
-                  <a target="_blank" href={brands.href}>
+                  <a
+                    className="hover:text-orange-700"
+                    target="_blank"
+                    href={brands.href}
+                  >
                     <FontAwesomeIcon icon={brands.icon} />
                   </a>
                 </li>

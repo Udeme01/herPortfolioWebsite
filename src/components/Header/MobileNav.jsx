@@ -38,7 +38,7 @@ export const MobileNav = () => {
                 return (
                   <li key={id} className={mobileNavList}>
                     <Link to={href} smooth>
-                      <a>{title}</a>
+                      <a className="hover:text-orange-700">{title}</a>
                     </Link>
                   </li>
                 );
