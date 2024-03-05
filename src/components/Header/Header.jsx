@@ -3,7 +3,7 @@ import logo from "../../assets/img/favicon.ico";
 import { DesktopNav } from "./DesktopNav";
 import { useState } from "react";
 
-const headerStyles = "header xl:w-90 xl:mx-auto xl:p-0";
+const headerStyles = "header sticky z-50 xl:w-90 xl:mx-auto xl:p-0";
 const active = "sticky top-0 z-50 bg-white shadow-sm xl:w-90 xl:mx-auto";
 
 export const Header = () => {
